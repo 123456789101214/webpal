@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    margin: 0; 
+    height: 100%; 
+    font-family: "Poppins", sans-serif; 
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%; 
+    height: 60px;
+    background: #000;
+}
+
+.logo h1{
+    float: left; 
+    margin: 15px 15px 15px 40px; 
+    font-family: "Poppins", sans-serif; 
+    color: #fff;
+}
+
+nav{
+    float: right; 
+    padding: 15px;
+    margin: 5px; 
+    width: 500px;
+    height: 60px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 15px;
+}
+
+nav ul li a {
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1a1dc0;
+}
+
+.slider{
+    width: 100%;
+    height: 450px;
+    background: #0f1192;
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+
+.slider .left{
+    width: 40%;
+    height: 450px;
+    margin-top: 10px;
+}
+
+.left .lft-img{
+    position: relative;
+    width: 40%;
+    height: 450px;
+}
+
+.slider .middle{
+    width: 30%;
+    height: 450px;
+}
+
+.middle .mid-txt{
+    position: relative; 
+    top: 7em; 
+    left: 25px;
+    height: 80px; 
+    width: 100%;
+}
+
+.middle .mid-txt h3{
+    margin: 20px;
+}
+
+.middle .btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    position: relative;
+    top: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.middle .btn:hover {
+    background: #020343;
+    border: 1px solid #020343;
+    color: #fff;
+}
+
+.slider .right{
+    width: 40%;
+    height: 450px;
+}
+
+.right .img-2{
+    position: relative;
+    float: right;
+    height: 400px;
+    top: 10px;
+}
+
+.paragraph{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.paragraph p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #020343;
+    padding: 4px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    height: 330px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.services .card{
+    width: 280px;
+    height: 300px;
+    margin: 12px 6px;
+    padding: 10px;
+    background: #ece9e9;
+}
+
+.card i{
+    font-size: 30px;
+    color: #060af5;
+}
+
+.card h3{
+    font-size: 20px;
+    color: #060af5;
+    margin: 12px;
+    font-weight: 600;
+}
+
+.card p{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+
+.card button{
+    background: #020343;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+    border: 1px solid #020343;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: transparent;
+    border: 1px solid #020343;
+    color: #020343;
+}
+
+.progress{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.p-left{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.p-left .l-h3{
+    font-size: 20px;
+    color: #060af5;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.p-left p{
+    font-size: 16px;
+    color: #000;
+    margin: 15px;
+    width: 550px;
+    line-height: 25px;
+}
+
+.p-right{
+    width: 50%;
+    height: 300px;
+    float: right;
+    color: #000;
+    padding: 0px 10px;
+}
+
+.r-h3 {
+    font-size: 20px;
+    color: #060af5;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.bar {
+    width: 100%;
+    height: 13px;
+    margin-bottom: 15px;
+    background: #ddd;
+    color: #fff;
+}
+
+.skills {
+    text-align: right;
+}
+
+.html {
+    width: 95%;
+    height: 13px;
+    background: #020343;
+    font-size: 13px;
+}
+
+.css {
+    width: 90%;
+    height: 13px;
+    background: #020343;
+    font-size: 13px;
+}
+
+.js {
+    width: 80%;
+    height: 13px;
+    background: #020343;
+    font-size: 13px;
+}
+
+.php {
+    width: 75%;
+    height: 13px;
+    background: #020343;
+    font-size: 13px;
+}
+
+footer {
+    background: #000;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+
+.nletter {
+    height: 100px;
+    padding: 10px 15px;
+}
+
+.nletter input[type="text"] {
+    border: none;
+    outline: none;
+    width: 20%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nletter button {
+    padding: 8px 18px;
+    margin-left: 10px;
+    border: 3px solid #020343;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.nletter button:hover {
+    background: #020343;
+    border: 3px solid #060af5;
+}
+
+h3.get {
+    margin-top: 8px;
+}
+
+.icons {
+    margin: 10px;
+}
+
+.icons i {
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons .fa-facebook:hover {
+    color: #3b5998;
+    transform: translateY(-7px);
+}
+
+.icons .fa-twitter:hover {
+    color: #00aced;
+    transform: translateY(-7px);
+}
+
+.icons .fa-linkedin-in:hover {
+    color: #0077b5;
+    transform: translateY(-7px);
+}
+
+.icons .fa-instagram:hover {
+    color: #E4405F;
+    transform: translateY(-7px);
+}
+
+.copyrights a {
+    color: #0f1192;
+    font-weight: bold;
+}
+
+.copyrights .wd {
+    margin-top: 10px;
+    
+}
+
+.copyrights b {
+    color: #0f1192;
+    margin: 4px;
+}
